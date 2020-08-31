@@ -1,0 +1,137 @@
+/* Overide Antd */
+.ant-form-item-label>label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::before {
+  position: absolute;
+  right: -5px;
+}
+
+.ant-upload-list-item-image {
+  object-fit: cover !important;
+}
+
+.avatar .ant-upload-list-item {
+  display: none !important;
+}
+
+.ant-tabs-card .ant-tabs-tab {
+  padding: 8px 16px !important;
+}
+
+.ant-tabs-tab {
+  padding: 12px 2.5rem !important;
+}
+
+.ant-form-item-label {
+  display: flex !important;
+  justify-content: flex-start !important;
+  font-family: Sarabun !important;
+  color: #495057 !important;
+}
+
+.ant-form-item-label label {
+  color: #495057 !important;
+}
+
+.ant-menu {
+  background-color: #f9fafc;
+}
+
+.ant-menu-sub {
+  background-color: #f9fafc !important;
+}
+
+.ant-menu-item {
+  display: flex !important;
+  align-items: center !important;
+}
+
+.ant-form-item {
+  margin-bottom: 16px !important;
+}
+
+.ant-select-selection-item-remove {
+  display: flex !important;
+  align-items: center !important;
+}
+
+input,
+.ant-form-item-control-input {
+  font-family: Sarabun !important;
+}
+
+.ant-modal-header {
+  border-radius: 12px 12px 0 0 !important;
+}
+
+.ant-modal-content {
+  border-radius: 12px !important;
+}
+
+/* .ant-modal-body {
+  padding: 0px !important;
+} */
+
+label {
+  font-family: 'Noto Sans', sans-serif !important;
+}
+
+.course-list .ant-table-row-level-0 {
+  background-color: #f8f9fa !important;
+}
+
+.course-list .ant-table-expanded-row>.ant-table-cell {
+  background-color: white !important;
+  padding: 16px 0px !important;
+}
+
+.course-list .ant-table-tbody {
+  font-family: Sarabun !important;
+}
+
+.course-list .ant-divider-horizontal {
+  margin: 16px 0 !important;
+}
+
+.course-list .ant-table-thead>tr>th {
+  background-color: #dde2e5 !important;
+}
+
+/* 
+.upload-list-inline .ant-upload-list-item {
+  float: left;
+  min-width: 200px;
+  margin-right: 8px;
+}
+
+.upload-list-inline [class*='-upload-list-rtl'] .ant-upload-list-item {
+  float: right;
+}
+.upload-list-inline .ant-upload-animate-enter {
+  animation-name: uploadAnimateInlineIn;
+}
+.upload-list-inline .ant-upload-animate-leave {
+  animation-name: uploadAnimateInlineOut;
+} */
+
+/* Overide Antd */
+.ant-table-tbody {
+  font-family: Sarabun !important;
+}
+
+/* wsywing class */
+
+.editorClassName {
+  border: 1px solid rgb(241 241 241) !important;
+  padding: 0px 16px !important;
+  border-radius: 2px !important;
+  min-height: 200px !important;
+}
+
+.rdw-center-aligned-block * {
+  text-align: center !important;
+}
+
+.editorClassName ul {
+  list-style-image: url('../assets/benefit-check.png');
+}
+
+/* wsywing class */

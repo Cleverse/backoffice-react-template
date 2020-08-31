@@ -1,0 +1,231 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+@font-face {
+  font-family: 'DB Heavent';
+  src: url('fonts/DBHeavent-Light.woff2') format('woff2'),
+    url('fonts/DBHeavent-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DB Heavent';
+  src: url('fonts/DBHeavent-BoldIt.woff2') format('woff2'),
+    url('fonts/DBHeavent-BoldIt.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DB Heavent';
+  src: url('fonts/DBHeavent-MedIt.woff2') format('woff2'),
+    url('fonts/DBHeavent-MedIt.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DB Heavent';
+  src: url('fonts/DBHeavent.woff2') format('woff2'),
+    url('fonts/DBHeavent.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DB Heavent';
+  src: url('fonts/DBHeavent-Thin.woff2') format('woff2'),
+    url('fonts/DBHeavent-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DB Heavent';
+  src: url('fonts/DBHeavent-LightIt.woff2') format('woff2'),
+    url('fonts/DBHeavent-LightIt.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DB Heavent';
+  src: url('fonts/DBHeavent-Italic.woff2') format('woff2'),
+    url('fonts/DBHeavent-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DB Heavent';
+  src: url('fonts/DBHeavent-UltraLi.woff2') format('woff2'),
+    url('fonts/DBHeavent-UltraLi.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DB Heavent';
+  src: url('fonts/DBHeavent-UltraLiIt.woff2') format('woff2'),
+    url('fonts/DBHeavent-UltraLiIt.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DB Heavent';
+  src: url('fonts/DBHeavent-Med.woff2') format('woff2'),
+    url('fonts/DBHeavent-Med.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DB Heavent';
+  src: url('fonts/DBHeavent-BlackIt.woff2') format('woff2'),
+    url('fonts/DBHeavent-BlackIt.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DB Heavent';
+  src: url('fonts/DBHeavent-Black.woff2') format('woff2'),
+    url('fonts/DBHeavent-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DB Heavent';
+  src: url('fonts/DBHeavent-Bold.woff2') format('woff2'),
+    url('fonts/DBHeavent-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DB Heavent';
+  src: url('fonts/DBHeavent-ThinIt.woff2') format('woff2'),
+    url('fonts/DBHeavent-ThinIt.woff') format('woff');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Noto Sans';
+  src: url('fonts/NotoSansThai-Thin.ttf') format('truetype'),
+    url('fonts/NotoSans-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Noto Sans';
+  src: url('fonts/NotoSansThai-Light.ttf') format('truetype'),
+    url('fonts/NotoSans-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Noto Sans';
+  src: url('fonts/NotoSansThai-Regular.ttf') format('truetype'),
+    url('fonts/NotoSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Noto Sans';
+  src: url('fonts/NotoSansThai-Medium.ttf') format('truetype'),
+    url('fonts/NotoSans-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Noto Sans';
+  src: url('fonts/NotoSansThai-Bold.ttf') format('truetype'),
+    url('fonts/NotoSans-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Noto Sans';
+  src: url('fonts/NotoSansThai-Black.ttf') format('truetype'),
+    url('fonts/NotoSans-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+html body {
+  margin: 0;
+  font-size: 18px;
+  font-family: 'Noto Sans', sans-serif;
+  overscroll-behavior: none;
+  scroll-behavior: smooth;
+}
+
+body.dark-bg {
+  background-color: #272729;
+}
+
+* {
+  outline: none;
+  box-sizing: border-box;
+}
+
+a,
+a:focus,
+a:visited,
+a:hover {
+  text-decoration: none;
+}
+
+svg text {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+svg text::selection {
+  background: none;
+}
+
+#nprogress .bar {
+  background: #ea5771 !important;
+  height: 4px !important;
+}
+
+#nprogress .peg {
+  box-shadow: 0 0 10px #ea5771, 0 0 5px #ea5771 !important;
+}
